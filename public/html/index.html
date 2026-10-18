@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- THE HEAD -->
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+
+    <meta name="description" content="The home site for BLOX FABLES, a self-indulgent AU and story based on ROBLOX's history and site culture.">
+	<meta name="author" content="WTFGayLittleZooid">
+    <meta name="keywords" content="html, css, js">
+    
+	<!-- Page Title --> <title>Prologue | BLOX FABLES</title>
+	<!-- Favico --> <link rel="icon" type="image/x-icon" href="/assets/img/etc/favico(1).ico">
+	<!-- Stylesheet --> <link rel="stylesheet" href="\css\style_main.css">
+</head>
+
+<!-- THE BODY -->
+ <body>
+    <!-- The Website's Container-->
+    <!-- (Stickers + Script Sources go here!)-->
+    <script src="/js/audio.js"></script>
+    <script src="/js/storybook.js" defer></script>
+    <script src="/js/dropdown.js"></script>
+    <script src="/js/collapse.js"></script>
+    <script src="/js/search.js"></script>
+
+    <div class="container_site">
+        <img class="sticker rookie" src="/assets/img/graphics/stickers/rookie.png" alt="A chibi drawing of Rookie, carrying various gears.">
+        <img class="sticker guest" src="/assets/img/graphics/stickers/503.png" alt="A chibi drawing of 503, leaning back with her arms crossed.">
+        <img class="sticker nil" src="/assets/img/graphics/stickers/nil.png" alt="A chibi drawing of Nil, resting his sword on his shoulder and smiling.">
+        
+        <!-- The Content Container -->
+        <!-- (Writing, Navigation, Etc...)-->
+        <div class="container_content">
+            <!-- The Whooole header -->
+            <div class="header">
+                <img class="header_img" src="/assets/img/graphics/website_header.png">
+                <!-- Navigation Bar -->
+                <div class="navbar">
+                    <ul>
+                        <li class="bf"><a href="" class="active"><img src="/assets/img/txt/bf_primary.png" alt="BLOX FABLES"></a></li>
+                        <li onmouseenter="play_hover()" onmousedown="play_click()"><a href="/html/charred_pizza/1.html"><img src="/assets/img/txt/char_primary.png" alt="CHARRED PIZZA"></a></li>
+                        <li onmouseenter="play_hover()" onmousedown="play_click()"><a href="/html/about.html"><img src="/assets/img/txt/about.png" alt="ABOUT"></a></li>
+                        <li onmouseenter="play_hover()" onmousedown="play_click()"><a href="/html/artists.html"><img src="/assets/img/txt/artists.png" alt="ARTISTS"></a></li>
+                        <li onmouseenter="play_hover()" onmousedown="play_click()"><a href="/html/guestbook.html"><img src="/assets/img/txt/guestbook.png" alt="GUESTBOOK"></a></li>
+                        <li onmouseenter="play_hover()" onmousedown="play_click()"><a href="https://forms.gle/pV2shnA6qjafffmS7" target="_blank"><img src="/assets/img/txt/bug report.png" alt="BUG REPORT"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="collapsible" class="notice default">
+                <img src="/assets/img/graphics/decor/notice_jane.png">
+                <span id="close" onmouseenter="play_hover()" onmousedown="play_click()" onclick="collapse()">&times;</span>
+                <p><b>NOTICE:</b> This site uses lots of JAVASCRIPT and AUDIO. If you want the intended full experience of this site, please enable AUDIO AUTOPLAY for this site in your browser settings! Thank you! :-)</p>
+            </div>
+            
+            <div class="container_writing">
+                <img src="/assets/img/txt/bf_primary.png" alt="BLOX FABLES" class="img_title">
+                <img src="/assets/img/graphics/story/blox_fables/prologue/title.png" alt="THE PROLOGUE" class="img_subtitle" id="prologue">
+
+                <div class="pov cypress">
+                    <audio id="music" controls>
+                        Sorry! Your browser does not support the audio element.
+                        <source src="https://bloxfables.neocities.org/Assets/sounds/Prologue%20-%20Cyus.wav" type="audio/wav">
+                    </audio>
+
+                    <p>"May I have your attention, please?"</p>
+                    <p>"…ah, perfect. I would like to begin by thanking all of you for your attendance today. I'm also extremely glad to see the new members here. I would like everyone to give Chris and Hickory a warm welcome after the sermon, and I'd personally like to thank Dynamo for referring our two newbies. It's always a pleasant surprise to get newer accounts and a privilege to teach them of ROBLOX's history."</p>
+                    <p><i>The faint sounds of paper shuffling are caught by the microphone, before it ends with a soft thud.</i></p>
+                    <p>"Today is a special day. We have made so much progress and I want each and every one of you to know how far we've come, so I will be reading ROBLOX's history so we may reconnect with our roots."</p>
+                    
+                    <img id="storybook" src="/assets/img/graphics/story/blox_fables/prologue/storybook/1.png">
+                    
+                    <div class="page_buttons half">
+                        <img id="prev" onmouseover="play_hover()" class="storybook_button" src="/assets/img/sprite/buttons/book_prev.png" alt="">
+                        <img id="next" onmouseover="play_hover()" class="storybook_button" src="/assets/img/sprite/buttons/book_next.png" alt="">
+                    </div>
+                </div>
+                <div class="page_buttons half">
+                    <!-- Next --> <a href="/html/blox_fables/1.html" onmouseenter="play_hover()" onmousedown="play_click()"><img src="/assets/img/sprite/buttons/bf_next.png" alt="" srcset=""></a>
+                    <!-- Last --> <a href="/html/blox_fables/2.html" onmouseenter="play_hover()" onmousedown="play_click()"><img src="/assets/img/sprite/buttons/bf_skiplast.png" alt="" srcset=""></a>
+                </div>
+                <div class="notice dropdown">
+                    <select id="select" onmouseover="play_hover()" onmousedown="play_click()">
+                        <option disabled selected>SKIP TO</option>
+                        <option value="1">THE PROLOGUE</option>
+                        <option value="2">CHAPTER 1: ROLE CALL</option>
+                        <option value="3">CHAPTER 2: SEEING STARS</option>
+                    </select>
+                    <button id="submit" onclick="dropdown_bf()" onmouseenter="play_hover()" onmousedown="play_click()">SUBMIT</button>
+                </div>
+
+                <div class="notice search">
+                    <h2>SEARCH KEYWORDS</h2>
+                    <input placeholder="Hello World!" id="search">
+                    <button onclick="search()" onmouseenter="play_hover()">SEARCH</button>
+                </div>
+            </div>
+        </div>
+    </div>   
+ </body>

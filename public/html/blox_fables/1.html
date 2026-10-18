@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<!-- THE HEAD -->
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+
+    <meta name="description" content="The home site for BLOX FABLES, a self-indulgent AU and story based on ROBLOX's history and site culture.">
+	<meta name="author" content="WTFGayLittleZooid">
+    <meta name="keywords" content="html, css, js">
+    
+	<!-- Page Title --> <title>Chapter 1: ROLE CALL | BLOX FABLES</title>
+	<!-- Favico --> <link rel="icon" type="image/x-icon" href="/assets/img/etc/favico(1).ico">
+	<!-- Stylesheet --> <link rel="stylesheet" href="\css\style_main.css">
+</head>
+
+<!-- THE BODY -->
+ <body onload="diceroll()">
+    <!-- The Website's Container-->
+    <!-- (Stickers + Script Sources go here!)-->
+    <script src="/js/audio.js"></script>
+    <script src="/js/dropdown.js"></script>
+    <script src="/js/collapse.js"></script>
+    <script src="/js/quirk_translation.js"></script>
+    <script src="/js/alt_story.js"></script>
+
+    <div class="container_site">
+        <img class="sticker rookie" src="/assets/img/graphics/stickers/rookie.png" alt="A chibi drawing of Rookie, carrying various gears.">
+        <img class="sticker guest" src="/assets/img/graphics/stickers/503.png" alt="A chibi drawing of 503, leaning back with her arms crossed.">
+        <img class="sticker nil" src="/assets/img/graphics/stickers/nil.png" alt="A chibi drawing of Nil, resting his sword on his shoulder and smiling.">
+        
+        <!-- The Content Container -->
+        <!-- (Writing, Navigation, Etc...)-->
+        <div class="container_content" id="everything">
+            <!-- The Whooole header -->
+            <div class="header">
+                <img class="header_img" src="/assets/img/graphics/website_header.png">
+                <!-- Navigation Bar -->
+                <div class="navbar">
+                    <ul>
+                        <li class="bf"><a href="/html/index.html"><img src="/assets/img/txt/bf_primary.png" alt="BLOX FABLES"></a></li>
+                        <li onmouseenter="play_hover()" onmousedown="play_click()"><a href="/html/charred_pizza/1.html"><img src="/assets/img/txt/char_primary.png" alt="CHARRED PIZZA"></a></li>
+                        <li onmouseenter="play_hover()" onmousedown="play_click()"><a href="/html/about.html"><img src="/assets/img/txt/about.png" alt="ABOUT"></a></li>
+                        <li onmouseenter="play_hover()" onmousedown="play_click()"><a href="/html/artists.html"><img src="/assets/img/txt/artists.png" alt="ARTISTS"></a></li>
+                        <li onmouseenter="play_hover()" onmousedown="play_click()"><a href="/html/guestbook.html"><img src="/assets/img/txt/guestbook.png" alt="GUESTBOOK"></a></li>
+                        <li onmouseenter="play_hover()" onmousedown="play_click()"><a href="https://forms.gle/pV2shnA6qjafffmS7" target="_blank"><img src="/assets/img/txt/bug report.png" alt="BUG REPORT"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="notice" id="error">
+                <h1>ERROR:</h1>
+                <p>There was an error loading this page's content. Please press OKAY to try again.</p>
+                <button onmouseenter="play_hover()" onclick="alt_show()">OKAY</button>
+            </div>
+
+            <div class="container_writing alt" id="alt">
+                <audio controls>
+                    <source src="/assets/audio/music/file_not_found.wav">
+                </audio>
+
+                <p>there is n0 such thing as n0thing</p>
+                <p>n0thing can n0t exist</p>
+                <p>. . .</p>
+                <p>there is 0nly absence</p>
+                <p>which will still be filled</p>
+                <p>with the h0le that is left</p>
+                <p>behind</p>
+                <p>. . .</p>
+                <p>like h0w</p>
+                <p>when even light is g0ne</p>
+                <p>instead of n0thing</p>
+                <p>there is still</p>
+                <p>shad0w</p>
+                <p>.</p>
+                <p>.</p>
+                <p>.</p>
+                <p>and yet</p>
+                <p>? feel</p>
+                <p>n0thing</p>
+                <p>it is n0t numbness</p>
+                <p>it is n0t the absence</p>
+                <p>it is</p>
+                <p>n0thing</p>
+                <p>. . .</p>
+                <p>but ? feel</p>
+                <p>? can feel</p>
+                <p>am ? n0t</p>
+                <p>still</p>
+                <p>here?</p>
+                <p>. . .</p>
+                <p>d0 ?</p>
+                <p>even</p>
+                <p>still</p>
+                <p>exist</p>
+
+                <div id="kick_zone" onmouseenter="kick()"></div>
+            </div>
+
+            <div id="collapsible" class="notice default">
+                <img src="/assets/img/graphics/decor/notice_bright.png">
+                <span id="close" onmouseenter="play_hover()" onmousedown="play_click()" onclick="collapse()">&times;</span>
+                <p><b>NOTICE:</b> Some dialogue in this chapter contains Typing and Speech quirks! If you have difficulty reading the text or prefer not to read it, you can tap or click this button for a translation!</p>
+                <button onmouseenter="play_hover()" onclick="brighteyes()">TRANSLATE</button>
+            </div>
+
+            <div class="container_writing" id="main">
+                <img src="/assets/img/txt/bf_primary.png" alt="BLOX FABLES" class="img_title">
+                <img src="/assets/img/graphics/story/blox_fables/chapter_1/title.png" alt="THE PROLOGUE" class="img_subtitle">
+                <img src="/assets/img/graphics/story/blox_fables/chapter_1/header.png" class="img_header">
+
+                <div class="pov rookadee">
+                    <p>Three weeks ago, all users of ROBLOX woke up to the same message in their notifications. Across the tens of thousands of users who still stuck to this stupid site, it was identical for every single one: an invitation.</p>
+                    <p>The same invitations glaring up at me right now. My eyes are glued to the lines on the screen, unwilling to leave. I've reread the address a hundred times now, and make no mistake— I know I'm on the correct train— I know that because there's so many damn people here! I am feel like I'm some squashed sardine in a can. There's two users I can feel on my sides, one who I swear to the Core is leaning on me.</p>
+                    <p>This train is packed. Every seat is taken, and every bump in the tracks results in the guy on my left accidentally elbowing the shit out of my side. Even all the standing space is taken up, I thought everybody was sick of the Admins! Why is this event so popular???</p>
+                    <p>I try to force myself to breathe and re-collect myself. I try not to focus on the stuffy feeling in the air as I exhale, and force my eyes back to the screen. Calling it challenging to read with the sheer amount of noise would be the understatement of the century. I miss when dealing with crowds didn't feel like an attack on my senses. Still, with great effort, my eyes remain glued to the address.</p>
+                    <p>The Marketplace. Possibly the greatest achievement of ROBLOX's servers. It's a place I'm pretty familiar with, and I already have a mental map of some places I want to hit on the way to the show. It was a different kind of hell avoiding it during these upcoming weeks, but I've finally got the tix all converted and a not-too-shabby stack of robux to spend.</p>
+                    <p>I just gotta keep my eyes on this screen.</p>
+                    <p>And not focus on the constant, cacophony of chatter coming from the crowd.</p>
+                    <p>The time passes by so slowly.</p>
+                    <p>I'm not sure how many times I reread the invitation, before I finally heard the sudden squealing of the train's tires slowing on the tracks. For a wonderful but fleeting moment, all the noise stops.</p>
+                    <p>A small melody chimes through the air. Instinctively, I exit from my messages. I watch as some users begin to move, some double checking their belongings, others excitedly nudging friends. I keep my hands in my lap, staying still.</p>
+                    <p><i>"Hello ROBLOXians. We have now arrived at Gear Street. We kindly ask that passengers departing now gather their belongings and depart shortly."</i></p>
+                    <p>I watch as just about everyone begins to stand from their seats, pulling their bags around their shoulders, and bundling up with their fellow friends. My fingers begin to fidget, and I wait until the users around me finally allow me some breathing room before I begin to stand. I push myself to my feet, and follow the crowd.</p>
+                    <p>Everybody quickly begins to disperse into their own little groups, and I stand off to the side to figure out where I want to go next. There's a whole lot of options— which is why I decided to leave early, after all— and just being back in Gear Street has me rocking on my heels in excitement! With some added pep in my step, I venture down one of the quieter alleys for browsing.</p>
+                    <p>Small stores line the alley, some looking more modern, others with distinct aesthetics (such as one looking ripped straight from a dungeon— it even has a some fake cobwebs and… pumpkins?), and even a few shabby little pop-up stalls. The stalls are my personal target. My footsteps against the brick paving as I continue down the alley. None of the stalls in sight are being operated. A small frown pulls at my face as I speed up. Please don't let all the stores be closed due to the event, that'd suck so much.</p>
+                    <p>Maybe I should give up on this spot. The only people here are people just waiting or window shopping. My pace quickens and I exit, searching for a place that's busier. As much I hate the noise and constant dodging, I should have better luck. Right?</p>
+                    <p>…</p>
+                    <p>The answer is a resounding no.</p>
+                    <p>My feet ache. I didn't find a single spot that was selling anything. Defeated, I trudge over to the Center Court where the big announcement is supposed to be held. Both my hands are clutching my arms as I weave through others heading the same way. My body shivers involuntarily, and my throat feels as if it's swelling.</p>
+                    <p>And forward.</p>
+                    <p><i>And forward.</i></p>
+                    <p>That dull ache now feels more akin to a throb. I shouldn't have wandered so far from Gear Street just to try and find a stupid shop, but now I'm paying for my actions. It feels like ages have passed when I make it to Center Court. Its a gorgeous area. As the name implies, it the center-point of the Marketplace— the heart of it, even. There's a massive marble fountain in the direct center, displaying a massive statue of the Imagination Core. Foliage and benches are also scattered around the fountain, making it a popular social spot.</p>
+                    <p>I walk past the fountain, I've seen it dozens of times already, and continue on. As I'm walking, the plaza comes into view and my feet stop upon seeing it in the distance. The Center Court's plaza is where a majority of events and announcements happen, and each time they always build something completely different in the plaza. This time all I can see is the seating stands— organized like a stadium or concert, and I continue. There's tons of people lingering by the plaza or on their way to find a spot to sit, so I try to match pace with the crowd. I find the stairs and hurry to grab one of my own.</p>
+                    <p>Actually, maybe random isn't the best. I don't want to accidentally sit in the middle of someone's friend group, get stuck with a rowdy group, or worse… another shiver overcomes me and my feet continue up the stairs. Up, up, up, I keep going up until that ache in my foot is screaming at me to give it up, and I finally relent. I've found myself in the upper stands. They're all surrounding a massive stage, and with my amazing decision, I'm in the upper rows where the stage is comically small.</p>
+                    <p>Better than the previous options, I suppose.</p>
+                    <p>I find one that's away from any groups and its back to waiting. This time instead of just sitting down and overthinking, I rummage through my inventory to play with some gears while I wait. A smile runs across my face as I pick out a compass. Its not a particularly useful gear. At all. But it is fun for waiting! I mostly just like to flick it open, roll my thumb along the glass a few times, and then flick it back shut. Its practically a ritual at this point, and one I enjoy dearly. It helps pass the time, and it helped me kick that stupid habit of scratching myself.</p>
+                    <p>Flick, roll, flick. Flick, roll, flick. </p>
+                    <p>Admins,  I hope the event starts soon. More people are starting to show up and sit around me. After a small sigh, I just give up and decide to tuck the compass away in my inventory. I don't want to make any noise or bother anybody.</p>
+                    <p>A few minutes pass I think. Every spot that I can see is currently taken. The crowd is so <i>loud</i>, as people talk to pass the time. All I can do is think.</p>
+                    <p>Suddenly, a change in color captures my attention. The skybox darkens and like many others, I crane my neck up to watch as the Sun goes down. The light blue sky is now a dark blue, then it begins to cycle through various pinks, oranges, and reds in a brief but beautiful sight. Devs really don't take advantage of the skybox enough— this is <i>gorgeous</i>. The Sun finally hides behind the horizon, and leaves behind a blanket of blues, blacks, and stars. Chatter fills the crowd, I can't make out what exactly they're saying, but a sudden spotlight spawns and centers on the stage. I watch as it duplicates into a trio of lights. The crowd falls to hush.</p>
+                    <p>Three figures appear on the stage. I blink a few times— it happened so fast, I didn't expect it. Maybe they teleported? They are Admins, after all. The noise of the crowd begins to build again, and I find my body tensing once more. I try to refocus my attention on the stage itself. It's still difficult to see who exactly I'm looking at, the stage is so far I can't pick out any colors, but the colors are damning enough.</p>
+                    <p>There's one that's mostly purple— that has to be BrightEyes. Nobody else— <i>especially</i> no other Admins— wears <i>that</i> much purple. I can also spot the dim, but colorful lights of the glowing bracelets she wears. That can't be anybody but her. She's hanging to the left. The one in the middle spotlight is almost all grays. A small frown pulls at my face, I think a few other people noticed it too, because from around me I can hear some irritated grumbles. That one's <i>Roblox</i>, that useless thing. It has a dumb smile with no thoughts behinds its eyes. My arms cross and a small sigh slips through my lips. I don't mean to be a downer, but… come on. At least BrightEyes actually does crap. The last is hanging to on the right-most spotlight. One whose shorter from the rest, and is a very bright yellow. I cringe a little. Shedletsky, or <i>Telamon</i>.</p>
+                    <p>…not the greatest lineup. Hopefully it picks up from here.</p>
+                    <p>Roblox steps forward. The spotlight follows it. My eyes close, I exhale, and all that hope fades. <i>Damn it, damn it, damn it.</i></p>
+                    <p>It begins to speak, a few people around me are already snickering. "Hello R-R-ROBLOXians!" Its voice is loud, the microphone is picking up a slight almost <i>static</i> sounding noise as it speaks, and there is noticeable glitch in its voice. Despite the distance, I spot Shedletsky and BrightEyes moving almost anxiously. "I would like to begin b-b-by thanking everybody for coming here! ROBLOX means everything to us-s-s—" It <i>is</i> everything to us, we <i>live</i> here. "—and even if we've had some growing pains—" My eyes drift to Shedletsky. <i>Growing pains.</i> "—you all are s-s-still here!"</p>
+                    <p>I look to the people around me. They all look either amused or annoyed. Some are complaining to their friends, others are making jokes and laughing. I breathe a sigh of relief. At least I'm not the only one being a jerk about this. That tension in my shoulders begins to fade as I go back to watching the show. This feels familiar, in a way that's oddly nice.</p>
+                    <p>"This event isn't jus-s-st about celebrating the past, its g-g-gonna be about all of you!" Its broken voice is beaming with too much confidence for a sentence that is so vague. "Today we are—"</p>
+                    <p><span class="txt_brighteyes">"Okay, we can't watch thiz anymore—"</span> BrightEyes interrupts. She steps out of her spotlight and begins to push Roblox out of its, as it continues spouting more vague nonsense. As she pushes it away, she sighs and reaches for its mic and mutes it. The crowd is breaking into laughter.</p>
+                    <p>Shedletsky moves into the middle spotlight. "Technical difficulties— sorry!" He laughs in a way that sounds so awkward.</p>
+                    <p>The laughter begins to die down when BrightEyes steps back onto the stage. The leftmost spotlight flickers out, and she rejoins Shedletsky to his right. I lean forward, resting my chin on the palm of my hand. I wonder how they're going to salvage this.</p>
+                    <p><span class="txt_brighteyes">"…We are going to open with zaying we are zo zorry for letting Roblox open, we don't know what we were thinking,"</span> BrightEyes raises a hand to her head. It'd be nice if I could see their faces better from here, but oh well. <span class="txt_brighteyes">"We do want to thank you all for being here— truly. We're not going to play ztupid, we know ROBLOX haz been going downhill and lately haz felt az if its in the gutter. We've mezzed up—"</span> BrightEyes doesn't look back at Shedletsky. He angles his head away. <span class="txt_brighteyes">"—and we've made miztakez we can't fix, and becauze of it you're all zuffering, and thiz amazing community everybody built from nothing iz broken becauze of our negligence. We're zorry. Zo thank you for being here, for giving uz another chance. We don't want to wazte your time, nor thiz chance."</span></p>
+                    <p>…huh. That wasn't so bad? My attention finds itself back to the people around me. A few are murmuring, most are simply watching and waiting. I feel… something in my chest. I can't place what. I don't think its forgiveness. I turn back to the stage. Please keep going this way, this feels… nice, I think.</p>
+                    <p><span class="txt_brighteyes">"ROBLOX uzed to be a wonderful place. It haz a long way to go before we get anything cloze to how it uzed to be, but we are determined to make it up to you all and rebuild thiz zite. Az a final thankz for your patience, we have a zurprize for everybody!"</span> BrightEyes clasps her hands together and takes a step back.</p>
+                    <p>Shedletsky steps forward. I wait, and for a brief moment, the entire crowd is silent, waiting with me. An inhale is heard through the mic. "Thank you, Bright. And I want to extend my gratitude to you all as well, for being here and letting me speak!" His voice carries a similar tone to Roblox's. I chuckle a little at the thought of BrightEyes dragging Shedletsky off stage as well. "About the surprise BrightEyes mentioned, its a big one! During the uh… initial <i>incident</i>, we had to delete a damaged game to prevent further damage to ROBLOXia. It was an incredibly popular game, I believe number one for a good long while, but we're bringing back the original Capture the Flag!"</p>
+                    <p>I sit up at that name. I know that game. I know that game? Of course I know that game. Its a popular genre, but why does it feel like something <i>different—</i> I look around at the crowd around me, people are either stunned or talking in hushed whispers. They seem confused too. It feels like I had a rock in my head for years that I had completely forgotten about had finally gotten dislodged. I put my hand to my head, trying to think about the game. There's so many variants of that game, but in my head I can see a field, some ugly looking old buildings, and… not much else. </p>
+                    <p>Shedletsky coughs a few times into the mic, effectively shutting everyone up. "To celebrate the return of this classic game, we've decided to throw a huge Capture the Flag tournament spanning across all your favorite CTF maps! At the final round, the two best teams will fight in the original map, and the winning team wins a special prize designed by Clockwork! And after the tournament is over, the map will be available for public access. I am so excited to oversee these fights, but before we can begin organizing I will start going over some rules."</p>
+                    <p>Oh, this sounds actually really fun! I'm sitting straight up now, hands folded in my lap and listening at full attention. The rules don't sound too complicated. Everyone will be organized in teams of three, gears are allowed <i>(YES)</i>, and it'll be whichever team gets a first to three points, or whoever has the most after 8 minutes have passed.</p>
+                    <p>A big stupid grin is on my face. I'm actually really excited for this— and from the sound of everyone else around me, they seem excited too! This is <i>perfect—</i> this is such a perfect excuse to meet some new people! My leg is bouncing excitedly, and my fingers are tapping on my legs. I didn't really have my hopes too high for this event, but now? Now I can't wait! And I can finally show off my gear collection!!!</p>
+                    <p>A light chuckle comes from the mic, and after a few seconds, the crowd goes mostly quiet. BrightEyes is speaking again. <span class="txt_brighteyes">"We're glad to hear that everyone'z excited. Now, it'z time to organize into teamz! Play with your friendz or meet new people, play however you want to! Once everyone is into teamz and registered, then we'll all move to the next step! Good luck! May the bezt team win!"</span></p>
+                    <p>That giddy smile is still stuck on my face. I push myself out of my seat, copying the people around me, and for once I don't feel claustrophobic in the crowd. All I got to do is find a team.</p>
+                    <hr>
+                    <p>Its already over and it hasn't even started.</p>
+                    <p>Surely, my luck can't be this bad?</p>
+                    <p>I go up to another duo— just two regular users— and try to ignore the way their expressions contort upon seeing me. "Hey, I was wondering—" desperation laces my voice, and one of them cuts me off before I get the chance to further embarrass myself.</p>
+                    <p>"Oh— sorry, we already have someone, we just got separated," one of them stammers. The other nods and begins to push their partner away. The smile I wore on my face quickly begins to fade as they go back to the crowd. Its becoming increasingly smaller.</p>
+                    <p>I stand still as I watch more and more groups form. Everyone is finding their place and I'm still just… here. As duos and singles pass by, I offer a forced smile and half-hearted wave and get the same quickening pace or utter lack of reaction in response.</p>
+                    <p>…Admins, I'm really an idiot. Out of all the times for this stupid event to happen it'd have to happen now.</p>
+                    <p>I turn away from the crowd, hesitance slowing my motions, and force myself to walk away. I probably should've figured I wouldn't have had any luck getting a team, but I'm just not used to this. I don't think I ever will be. My legs carry me to one of the many empty stalls surrounding the thinning crowd. A sigh escapes my lips and the wood of one of the storage crates creaks as I sit atop it, defeated.</p>
+                    
+                    <div class="container_comic bf_comic">
+                        <div class="comic_pages">
+                            <img src="/assets/img/graphics/story/blox_fables/chapter_1/page.png">
+                        </div>
+                    </div>
+                    
+                    <p>I jump back to my feet, completely involuntarily, and I go to ask where did he even come from, but instead my body betrays me and I fall into a coughing fit.</p>
+                    <p>A soft chuckle can be heard from my right. I didn't know a laugh could sound so punch-able. I try to ignore that thought.</p>
+                    <p>"Didn't mean to startle you," Shedletsky hums, that sly stupid smile still on his face. It's so uncanny— he's so unlike Telamon, but the smile completely gives him away. His head tilts to the side a little, eyes piercing through me. Despite the friendly demeanor, he's still just as terrifying as he once was. "Teams are gathering, y'know. Got a team?" He sounds giddy, almost mocking.</p>
+                    <p>I take a step back without thinking. "Uh, no— no, not yet…" The words clumsily fall from my mouth in a stupid sounding stammer. He continues to stare and I take another step back. My hands clasp together in front of myself, my nails digging into my skin a little. Was that answer not enough? Anxiety seeping into my every action, I try again. "I haven't had any luck, I uh—" my face burns red, embarrassment now joining the anxiety. "…didn't really have a group in mind— I mean I did— but—"</p>
+                    <p>"You don't have to explain yourself," Shedletsky hummed, taking a step closer. I didn't move back this time. "The entire point of this event is to bring the community together! I can gladly help you find a team, you're not the only one with this problem."</p>
+                    <p>Oh.</p>
+                    <p>The red in my face begins to fade and the tension leaves my shoulders. "…really?"</p>
+                    <p>His smile beams. "Yeah! Hold on— let me grab one, you'll have a blast working with him." He spins on his heels and starts off the other way. He doesn't make a single sound as he goes. Eerie.</p>
+                    <p>Well, I got nothing to do but wait now. I move back to the trusty crate, returning to my seat atop its lid. My hands find their familiar place in my lap.</p>
+                    <p>Shedletsky… doesn't seem that bad a guy anymore. My hands tighten their grip on each other, that familiar tension returning. I can't help but feel like I'm betraying myself. I shake my head and force out a quiet grumble. I shouldn't be thinking about the Admins— he's still Telamon after all— nobody can change that much that quick. What I should be worrying about is making a good impression on my team—</p>
+                    <p>"I'm back!" Shedletsky's voice rang out in a sing-song tone. Just like before I jumped to my feet, this time with a gasp, and swing around to see him.</p>
+                    <p>I freeze upon seeing whose with him.</p>
+                    <p>A guest.</p>
+                    <p>A <i>guest</i> is standing with him. They look tense, their expression tight, their body language rigid— understandably so— and Shedletsky either doesn't seem to notice or doesn't care.</p>
+                    <p>"This one had some trouble too—" Shedletsky starts, and the guest cringes. "—so that's two of three for the team! And I got one last idea for your third, just give me moment to grab someone," he begins to trail off, before walking off in another direction. He's gone again already, leaving just me and the guest. I look at him, but his eyes are watching Shedletsky leave. When he's finally out of sight, a sigh of relief betrays them.</p>
+                    <p>I… didn't exactly expect a guest. I shouldn't think that way. Its just been so long since I've actually seen a guest, but I guess it makes sense that there's still a few stubborn ones left.</p>
+                    <p>Oh, they're looking at me. How long have they been staring?</p>
+                    <p>"Hey—" I try to start an introduction, raising my hand in a nervous wave. "I'm uh— R00kadee. Its nice to meet you?" I hold out my hand out of habit. He doesn't say anything. Of course he doesn't, he functionally <i>can't</i>. I squint my eyes and focus my head to find his name tag, and it answers with <i>"Guest 503."</i></p>
+                    <p>The guest— <i>503—</i> stares at me. His eyes drift away from mine, then they look to my hand, then back to me. I can't tell if he's unimpressed or if he just doesn't show his emotions on his face. Hoping its the latter...</p>
+                    <p>After an agonizing moment with nothing but dread filling my senses, he waves back. My hand lingers for a moment too long before I finally get the hint, and pull it back. I once more begin to fidget with one of my braids, trying to feel a little less stupid. I can't help but notice how warm my face is feeling, so I avert my gaze away from him as I fidget. And yet, I still see him in my peripheral, leaning on one of the stall's support beams, arms crossed. Faintly in my mind, a thought comes to mind: <i>Out of all Robloxians, why not someone who can actually talk?</i> My hand tightens, then tugs my braid in retaliation. My face cringes at both the thought and the brief sting.</p>
+                    <p>This is going great. I don't think this could be going any better, actually. A small huff leaves my body as I lean forward, resting my elbows on my legs and my head on my hands.</p>
+                    <p>…I wish my brain was stupid enough to where saying that enough times actually worked.</p>
+                    <p>My eyes find themself drifting back to the crowd, in search of a new distraction. Actually, I'm not even sure if <i>crowd</i> is the right word for it anymore. It has mostly separated into dozens of various trios, with a few bigger groups consisting of multiple trios huddled around. I squint trying to see what they're up to. Some are showing off gears, others seem to be lost in conversation, and I think the rest are just impatient to start. I've noticed my leg has started bouncing. I don't know if I'm impatient and anxious to start or just generally anxious. I settle my leg back to a simple rest.</p>
+                    <p>"Back again~!" That familiar voice rings out in the air, and this time I only blink in surprise. 503 doesn't seem as lucky. In my peripheral, I catch him jumping a little. A snicker nearly escapes me, but I bite my tongue and look away in the direction of Shedletsky's voice. The crate creaks as I pivot to see who he brought back.</p>
+                    <p>Oh!</p>
+                    <p>I'm pleasantly surprised with an avatar that actually has seen some customization. However, as my eyes pry further, there's a familiarity in the style that I can't quite place. Shedletsky is leaning over them, practically looming over the poor person — <i>although they don't look too bothered—</i> his hands resting on their shoulders. I perk up a little, this person seems to have a nice vibe, too! They wear a soft smile on their face, and I am already pushing myself off the crate, eager to meet them.</p>
+                    <p>"This is Nil," Shedletsky hums as I approach, that pride beaming from him in a way that feels slightly different in a way I can't describe. Maybe he still has some issues with guests…? I decide to shrug it off as I hold out my hand, eager to try again with our new teammate. Shedletsky does what Shedletsky does best, and keeps talking. "He's an NPC—"</p>
+                    <p><i>Oh!</i></p>
+                    <p>I stop. My hand is still lingering in the air.</p>
+                    <p>"—and one of the best!" Shedletsky's smile somehow stretches further as he tilts his head. "He personally leads tutorial sessions in Sword Fights on the Heights— and you'll find no ROBLOXian better versed in both combat and code than him!"</p>
+                    <p><i>That's why he looks familiar. He's a dummy rig.</i></p>
+                    <p>Suddenly I am shaken out of my thoughts— <i>literally</i> shaken as a hand excitedly clasps mine and shakes with such an enthusiasm that Nil nearly pulls me off my feet.</p>
+                    <p>"Hello world!" He hums, rocking back on his heels as if his excitement can't be contained. "I am pleased to meet you!"</p>
+                    <p>I feel my own face smile, mirroring his. Jeez, his energy is infectious. I return the gesture and shake his hand gently. "It's nice to meet you too, Nil. I'm R00kadee."</p>
+                    <p>"I can see that!" he hums, in the exact same tone as before.</p>
+                    <p>An anxious chuckle slips as I pull my hand back, and I step back. I watch as he approaches 503, to repeat the same song and dance to him. I watch as Nil has the exact same luck with him as I did. <i>At least its not personal,</i> I think while watching Nil wait for 503 to return the handshake. Predictably, nothing happens, but Nil has a <i>much</i> smoother recovery, and I watch as he just flips his hand into a thumbs up and folds his hands in front of himself. He goes back to rocking on his heels. 503's expression has not changed whatsoever.</p>
+                    <p>In all honesty, I'm not sure how I feel about this team.</p>
+                    <p>I continue to stare for a moment. 503 moves away from Nil, turning away to look away from him, and Nil keeps staring with that same smile. It takes a moment before he either gets bored or catches the hint, and moves his hand behind his back and starts to look around as well.</p>
+                    <p><i>…this team is better,</i> I tell myself.</p>
+                    <p>I should probably thank Shedletsky before the tournament starts. I spin around to try and find him, only to find nothing. He's disappeared again, without a sound nor a trace. I still find that uneasy. Nobody should be that sneaky, it's creepy.</p>
+                    <p>"We should get to the station before it gets crowded," Nil hums once more, catching mine and 503's attention. His expression hasn't changed. I look to 503, hoping for his thoughts. His thoughts appear to be brief eye contact and a quick turn to the direction of the station I came from earlier.</p>
+                    <p>"Great thinking, Guest 503!" Nil says as if he didn't suggest the idea. He clasps his hands together and follows close behind 503. 503 increases his pace, only for Nil to do the same.</p>
+                    <p>I chuckle quietly as I follow after. It would be nice to beat the crowd— <i>wait—</i> "Why are we going to the station?" I increase my pace so I can walk beside Nil.</p>
+                    <p>"Oh, that's right. The Admins didn't make the announcement yet," Nil hums to himself. He turns to me and grins, "First round takes place in the Crossroads. We should try and get some good seats!"</p>
+                    <p>I am not going to complain with that. I nod and quicken my pace. That smile is still stuck to my face, and excitement has sneaked its way into my every movement and thought. I actually have a team! I'm actually gonna be able to play in this event! It's hard not to be excited— that smile stays stubborn on my expression, even as the station comes into view.</p>
+                    <p>Win or lose, this will be worth it. I can feel it.</p>
+                </div>
+                <div class="page_buttons">
+                    <!-- First --> <a href="/html/index.html" onmouseenter="play_hover()" onmousedown="play_click()"><img src="/assets/img/sprite/buttons/bf_skipfirst.png" alt="" srcset=""></a>
+                    <!-- Prev --> <a href="/html/index.html" onmouseenter="play_hover()" onmousedown="play_click()"><img src="/assets/img/sprite/buttons/bf_prev.png" alt="" srcset=""></a>
+                    <!-- Next --> <a href="/html/blox_fables/2.html" onmouseenter="play_hover()" onmousedown="play_click()"><img src="/assets/img/sprite/buttons/bf_next.png" alt="" srcset=""></a>
+                    <!-- Last --> <a href="/html/blox_fables/2.html" onmouseenter="play_hover()" onmousedown="play_click()"><img src="/assets/img/sprite/buttons/bf_skiplast.png" alt="" srcset=""></a>
+                </div>
+                <div class="notice dropdown">
+                        <select id="select" onmouseover="play_hover()" onmousedown="play_click()">
+                            <option disabled selected>SKIP TO</option>
+                            <option value="1">THE PROLOGUE</option>
+                            <option value="2">CHAPTER 1: ROLE CALL</option>
+                            <option value="3">CHAPTER 2: SEEING STARS</option>
+                        </select>
+                        <button id="submit" onmouseenter="play_hover()" onmousedown="play_click()" onclick="dropdown_bf()">SUBMIT</button>
+                    </div>
+            </div>
+        </div>
+    </div>   
+ </body>

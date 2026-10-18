@@ -1,0 +1,51 @@
+Hello! If you have found this file, this is where all the answers for the secrets will be found. Please note this is ONLY FOR PEOPLE WHO DON'T WANT TO LOOK FOR SECRETS. 
+
+If you still want to find secrets on your own, please ignore this file. These will NOT be hints, these will be the full locations and how to find them.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ALTERNATE STORIES CHAPTERS 1 - 2
+Every time the page loads, it'll have a small chance to show the alternate chapter. You can force this by reloading the page.
+
+
+// BITTER_NOSTALGIA
+The hint is found on pages 1-3. It can easily be found by pressing ctrl-a or highlighting the empty space above the pages.
+Using a cipher, shift the letters of "CHARRED PIZZA" back by two to get "AFYPPCB NGXXY". Afterwards, head to the Keyword Search on the Home page (aka the Prologue) and type it in. This will direct you to the page.
+
+
+// VOID GROUP 
+Clicking the void ad on the ABOUT page will redirect you to an information page about the Void Group. There is an email address attached.
+
+
+
+// RACS 
+Clicking on the ad on the ARTISTS page will redirect you to the Roblox Forums Archive. Press CTRL-A to see the hint at the bottom of the page easier. Going through the threads, there will be numbers shown in the account's total posts. 18 = R, 1 = A, 3 = C, 19 = S. Typing in "racs" at the end of the index/home page in the url will redirect you to a download for RACS. Enjoy shooting Rust some questions!
