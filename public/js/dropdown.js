@@ -36,7 +36,7 @@ function dropdown_bf() {
     var input = document.getElementById("select").value;
 
     const srcs = [
-        "/html/index.html",
+        "/index.html",
         "/html/blox_fables/1.html",
         "/html/blox_fables/2.html"
     ];

@@ -64,7 +64,7 @@ function kick() {
             times_run += 1;
         }   else if (times_run >= 2) {
                 clearTimeout(timeout);
-                window.open("/html/index.html", "_self");
+                window.open("/index.html", "_self");
             }
         }
 
