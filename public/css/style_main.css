@@ -518,9 +518,13 @@ iframe {
 }
 
 #void_cult {
+    display: inline-block;
     float: right;
     margin: 1rem;
-    cursor: url("/assets/img/etc/cursor_hover.png"), pointer;
+    &:hover {
+        transform: none;
+        background-color: transparent;
+    }
 }
 
 #racs {
