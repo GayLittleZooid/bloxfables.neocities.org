@@ -18,7 +18,8 @@ function dropdown() {
         "/html/charred_pizza/11.html",
         "/html/charred_pizza/12.html",
         "/html/charred_pizza/13.html",
-        "/html/charred_pizza/notice.html"
+        "/html/charred_pizza/notice.html",
+        "/html/charred_pizza/14.html"
     ];
 
     input--;
